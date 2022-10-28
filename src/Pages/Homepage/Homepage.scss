@@ -1,16 +1,18 @@
 .heroSection {
+  overflow: hidden;
   h1 {
     color: #028c32;
     width: 320px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 110.02%;
     padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
   p {
     color: rgba(0, 0, 0, 0.4);
     width: 320px;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     text-align: justify;
     letter-spacing: -0.01em;
     text-transform: capitalize;
@@ -20,9 +22,30 @@
     background-color: red !important;
     // display: none;
   }
-  .man img{
-    width: 100%;
-    height: auto;
+ 
+}
+
+.man{
+  overflow: hidden;
+  // background-image: url(../../Assets/aboutUsBg.svg);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // width: 100%;
+  // height: auto;
+  
+  img{
+    position: absolute;
+    left: 25rem;
+    // overflow: hidden;
+    // width: 100%;
   }
 }
 
+.bg img{
+    // left: 360px;
+    clip: rect(0px, 375px, 370px, 330);
+    width: 50%;
+    position: absolute;
+    left: 37rem;
+    top: 15rem;
+  }

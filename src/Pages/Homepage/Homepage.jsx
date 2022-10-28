@@ -3,16 +3,17 @@ import { Col, Container, Row, Stack } from "react-bootstrap";
 import Button from "../../Components/Button/Button";
 import "./Homepage.scss";
 import { BsPlayCircle } from "react-icons/bs";
-import man from '../../Assets/guyManWX.svg'
+import man from '../../Assets/guyman2.png'
+import bg from '../../Assets/aboutUsBg.svg'
 
 
 
 const Homepage = () => {
   return (
     <div>
-      <Container className=" md">
-        <Row>
-          <Col sm={4}>
+      <Container className="mt-5 w-100" >
+        <div className="d-flex">
+          <div className=''>
             <div className="heroSection">
               <h1>Waste to Wealth just got better</h1>
               <p>
@@ -54,11 +55,14 @@ const Homepage = () => {
                 />
                 </Stack>
             </div>
-          </Col>
-          <Col sm={4} className="man">cjdjhd
+          </div>
+          <div className="md-6 man">
+            <div className="bg">
+            <img src={bg} alt="" />
+            </div>
           <img src={man} alt=""  />
-          </Col>
-        </Row>
+          </div>
+        </div>
       </Container>
     </div>
   );

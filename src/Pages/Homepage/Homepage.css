@@ -1,15 +1,19 @@
+.heroSection {
+  overflow: hidden;
+}
 .heroSection h1 {
   color: #028c32;
   width: 320px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 110.02%;
   padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .heroSection p {
   color: rgba(0, 0, 0, 0.4);
   width: 320px;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   text-align: justify;
   letter-spacing: -0.01em;
   text-transform: capitalize;
@@ -18,7 +22,19 @@
 .heroSection .btnn:hover {
   background-color: red !important;
 }
-.heroSection .man img {
-  width: 100%;
-  height: auto;
+
+.man {
+  overflow: hidden;
+}
+.man img {
+  position: absolute;
+  left: 25rem;
+}
+
+.bg img {
+  clip: rect(0px, 375px, 370px, 330);
+  width: 50%;
+  position: absolute;
+  left: 37rem;
+  top: 15rem;
 }/*# sourceMappingURL=Homepage.css.map */
