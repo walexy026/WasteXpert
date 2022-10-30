@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 100;
 }
 .Navbar .nav-title {
   font-size: 20px !important;
@@ -13,7 +13,7 @@
 .Navbar .nav-link, .Navbar .nav-title {
   color: #028c32;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
 }
 @media only screen and (max-width: 768px) {
   .Navbar .nav-link:hover, .Navbar .nav-title:hover {

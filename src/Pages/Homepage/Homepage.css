@@ -1,40 +1,73 @@
+.heroWrappper {
+  position: relative;
+}
+
 .heroSection {
+  width: 100%;
+  display: flex;
   overflow: hidden;
 }
-.heroSection h1 {
+.heroSection .HeroText h1 {
   color: #028c32;
-  width: 320px;
+  max-width: 320px;
   font-size: 40px;
   font-weight: 700;
   line-height: 110.02%;
-  padding-top: 5rem;
+  padding-top: 8rem;
   padding-bottom: 3rem;
 }
-.heroSection p {
+.heroSection .HeroText p {
   color: rgba(0, 0, 0, 0.4);
   width: 320px;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   text-align: justify;
   letter-spacing: -0.01em;
   text-transform: capitalize;
   font-weight: 400;
 }
-.heroSection .btnn:hover {
+.heroSection .HeroText .btnn:hover {
   background-color: red !important;
 }
 
 .man {
   overflow: hidden;
 }
-.man img {
-  position: absolute;
-  left: 25rem;
+.man .manbg img {
+  overflow: hidden;
+  transform: translateY(40px);
 }
 
 .bg img {
+  display: none;
   clip: rect(0px, 375px, 370px, 330);
   width: 50%;
   position: absolute;
   left: 37rem;
   top: 15rem;
+  width: 25%;
+}
+
+.horizontalLine {
+  height: 39px;
+  width: 100%;
+  background-color: #028c32;
+}
+
+.horizontalLineImg {
+  height: 39px;
+  width: 100%;
+  background-color: #028c32;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .horizontalLine {
+    display: none;
+  }
+  .horizontalLineImg {
+    display: block;
+  }
 }/*# sourceMappingURL=Homepage.css.map */

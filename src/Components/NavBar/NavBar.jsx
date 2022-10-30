@@ -15,14 +15,14 @@ const NavBar = () => {
           style={{ maxHeight: '300px' }}
           navbarScroll
         >
-          <Nav.Link className='nav-link px-2 mx-1' href="#">About us</Nav.Link>
-          <Nav.Link className='nav-link px-2 mx-1'href="#">Services</Nav.Link>
-          <Nav.Link className='nav-link px-2 mx-1'href="#">Contact us</Nav.Link>
-          <Nav.Link className='nav-link px-2 mx-1'href="#">FAQ</Nav.Link>
+          <Nav.Link className='nav-link px-2 ' href="#">About us</Nav.Link>
+          <Nav.Link className='nav-link px-2 'href="#">Services</Nav.Link>
+          <Nav.Link className='nav-link px-2 'href="#">Contact us</Nav.Link>
+          <Nav.Link className='nav-link px-2 'href="#">FAQ</Nav.Link>
           
         </Nav>
        
-          <Button className=' px-5' variant="outline-success bg-success text-light">Login</Button>
+          <Button className=' px-5 ms-5' variant="outline-success bg-success text-light">Login</Button>
       </Navbar.Collapse>
     </Container>
   </Navbar>

@@ -1,18 +1,29 @@
+.heroWrappper{
+  position: relative;
+}
 .heroSection {
+  width: 100%;
+  display: flex;
+  // flex-direction: column;
   overflow: hidden;
+.HeroText{
+  // width: 50%;
   h1 {
     color: #028c32;
-    width: 320px;
+    max-width: 320px;
     font-size: 40px;
     font-weight: 700;
     line-height: 110.02%;
-    padding-top: 5rem;
+
+
+
+    padding-top: 8rem;
     padding-bottom: 3rem;
   }
   p {
     color: rgba(0, 0, 0, 0.4);
     width: 320px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     text-align: justify;
     letter-spacing: -0.01em;
     text-transform: capitalize;
@@ -22,30 +33,66 @@
     background-color: red !important;
     // display: none;
   }
- 
+}
+
+
 }
 
 .man{
   overflow: hidden;
-  // background-image: url(../../Assets/aboutUsBg.svg);
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // width: 100%;
-  // height: auto;
+  // width: 50%;
   
-  img{
-    position: absolute;
-    left: 25rem;
-    // overflow: hidden;
-    // width: 100%;
+ .manbg img{
+
+    overflow: hidden;
+    transform: translateY(40px);
   }
 }
 
 .bg img{
+  display: none;
     // left: 360px;
     clip: rect(0px, 375px, 370px, 330);
     width: 50%;
     position: absolute;
     left: 37rem;
     top: 15rem;
+    width: 25%;
+
+  }
+
+  .horizontalLine{
+    // position: absolute;
+    // bottom: 0px;
+    height: 39px;
+    width: 100%;
+    background-color: #028c32;
+  }
+  .horizontalLineImg{
+    // position: absolute;
+    // bottom: 0px;
+    height: 39px;
+    width: 100%;
+    background-color: #028c32;
+  }
+  // hr{
+  //   position: absolute;
+  //   bottom: -200px;
+  //   left: 0px;
+  //   height: 39px;
+  //   width: 100%;
+  //   background-color: #028c32;
+  // }
+
+  @media only screen and (max-width:768px){
+    .heroSection{
+      display: flex;
+      flex-direction: column-reverse !important;
+    }
+    .horizontalLine{
+      display: none;
+    }
+    .horizontalLineImg{
+      display: block;
+    }
   }
