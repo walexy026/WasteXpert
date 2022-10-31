@@ -2,21 +2,22 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import AboutUsVol from "../../Assets/aboutUsImg.png";
 import Button from "../Button/Button";
-import { BsPlayCircle } from "react-icons/bs";
+import { BsChevronRight } from "react-icons/bs";
+import './AboutHome.scss'
 
 
 const AboutHome = () => {
   return (
     <div>
       <Container>
-        <Row className=" d-flex justify-content-center abt">
-          <Col className="col-md-6 p-5">
+        <Row className="about">
+          <Col className="col-md-6 mt-5 p-5">
             <img src={AboutUsVol} alt="AboutUsVol" className="img-fluid " />
           </Col>
-          <Col className="col-md-6">
-            <div className="aboutText mt-5 mb-3">
+          <Col className="col-md-6 p-5">
+            <div className="aboutText mt-5  mb-3">
               <h2 style={{color: '#028C32'}}> About us </h2>
-              <p style={{color:'rgba(0, 0, 0, 0.5)', textAlign:'justify'}}>
+              <p style={{color:'rgba(0, 0, 0, 0.5)', textAlign:'justify', marginBottom:'2rem'}}>
                 tincidunt urna non, lobortis tincidunt. Faucibus felis nulla
                 faucibus tellus nunc. Platea risus nibh feugiat dui phasellus
                 phasellus viverra ac leo. Pellentesque venenatis, ut risus at.
@@ -38,7 +39,7 @@ const AboutHome = () => {
                     marginRight:'1rem'
             
                   }} icon={
-                  <BsPlayCircle size="1.6rem" style={{ paddingRight: "5px" }} 
+                  <BsChevronRight size="1.5rem" style={{ paddingRight: "5px" }} 
                  
                   />
                 } />

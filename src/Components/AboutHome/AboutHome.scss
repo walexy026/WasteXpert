@@ -1,17 +1,12 @@
-.abt{
-    display: flex;
-}
 .aboutText{
-    // text-align: left;
     position: relative;
-}
-h2{
-    position: relative;
-    color: #028C32;
-}
-.aboutText p{
-    text-align: justify;
-    display: none;
+    h2{
+        position: relative;
+        color: #028C32;
+    }
+    p{
+        text-align: justify;
+    }
 }
 h2::after{
     content: '';
@@ -25,8 +20,21 @@ h2::after{
 
 
 @media only screen and (max-width:768px) {
-    .abt{
+    .about{
         display: flex;
-        flex-direction: column-reverse !important;
+        flex-direction: column ;
+    }
+    .aboutText{
+        text-align: center;
+        position: relative;
+        h2{
+            position: relative;
+            color: #028C32;
+            transform: translateX(-50px);
+        }
+        p{
+            padding: 10px;
+            text-align: justify;
+        }
     }
 }

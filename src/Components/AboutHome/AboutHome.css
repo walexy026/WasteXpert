@@ -1,19 +1,12 @@
-.abt {
-  display: flex;
-}
-
 .aboutText {
   position: relative;
 }
-
-h2 {
+.aboutText h2 {
   position: relative;
   color: #028C32;
 }
-
 .aboutText p {
   text-align: justify;
-  display: none;
 }
 
 h2::after {
@@ -26,8 +19,21 @@ h2::after {
 }
 
 @media only screen and (max-width: 768px) {
-  .abt {
+  .about {
     display: flex;
-    flex-direction: column-reverse !important;
+    flex-direction: column;
+  }
+  .aboutText {
+    text-align: center;
+    position: relative;
+  }
+  .aboutText h2 {
+    position: relative;
+    color: #028C32;
+    transform: translateX(-50px);
+  }
+  .aboutText p {
+    padding: 10px;
+    text-align: justify;
   }
 }/*# sourceMappingURL=AboutHome.css.map */
