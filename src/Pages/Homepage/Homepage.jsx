@@ -5,7 +5,8 @@ import "./Homepage.scss";
 import { BsPlayCircle } from "react-icons/bs";
 import man from "../../Assets/guyman2.png";
 import bg from "../../Assets/aboutUsBg.svg";
-import AboutHome from '../../Components/AboutHome/AboutHome'
+import Partners from '../../Components/Partners/Partners'
+import AboutHome from "../../Components/AboutHome/AboutHome";
 
 const Homepage = () => {
   return (
@@ -67,6 +68,7 @@ const Homepage = () => {
         </Row>
       </Container>
       <div className="horizontalLine"></div>
+      <Partners/>
       <AboutHome/>
     </div>
   );

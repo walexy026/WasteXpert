@@ -1,19 +1,11 @@
-.abt {
-  display: flex;
-}
-
-.aboutText {
+.partner {
+  text-align: center;
   position: relative;
 }
 
-h2 {
+.partner h2 {
   position: relative;
   color: #028C32;
-}
-
-.aboutText p {
-  text-align: justify;
-  display: none;
 }
 
 h2::after {
@@ -25,9 +17,12 @@ h2::after {
   transform: translateY(23px);
 }
 
+.carousel {
+  background-color: #E5E5E5;
+}
+
 @media only screen and (max-width: 768px) {
-  .abt {
-    display: flex;
-    flex-direction: column-reverse !important;
+  .partner h2 {
+    transform: translateX(-41px);
   }
-}/*# sourceMappingURL=AboutHome.css.map */
+}/*# sourceMappingURL=Partners.css.map */

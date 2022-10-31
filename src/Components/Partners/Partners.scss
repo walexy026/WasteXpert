@@ -1,0 +1,26 @@
+.partner{
+    text-align: center;
+    position: relative;
+}
+.partner h2{
+    position: relative;
+    color: #028C32;
+}
+h2::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    background-color: #028C32;
+    transform: translateY(23px);
+
+}
+.carousel{
+    background-color: #E5E5E5;
+}
+
+@media only screen and (max-width:768px){
+    .partner h2{
+        transform: translateX(-41px);
+    }   
+}

@@ -1,17 +1,32 @@
+.abt{
+    display: flex;
+}
 .aboutText{
+    // text-align: left;
     position: relative;
 }
 h2{
     position: relative;
-    text-align: center;
     color: #028C32;
+}
+.aboutText p{
+    text-align: justify;
+    display: none;
 }
 h2::after{
     content: '';
     width: 100px;
-    height: 5px;
+    height: 2px;
     position: absolute;
-    background-color: red;
-    right: 100px;
-    
+    background-color: #028C32;
+    transform: translateY(23px);
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .abt{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
 }

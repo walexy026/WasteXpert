@@ -1,56 +1,53 @@
 import React from "react";
-import './AboutHome.scss'
-import { Carousel, Container } from "react-bootstrap";
-import nestle from "../../Assets/nestleWX.svg";
-import UBA from "../../Assets/UBA-WX.svg";
-import OGSWX from "../../Assets/OGSWX.svg";
-import NaijaBrewery from "../../Assets/Nigerian-BreweriesWX.svg";
-import Jaiz from "../../Assets/jaiz-bankWX.svg";
-import cocacola from "../../Assets/Coca-ColaWX.svg";
-import tobacco from "../../Assets/britTobaccoWX.svg";
-import accessbank from "../../Assets/AccessBankWX.svg";
+import { Col, Container, Row } from "react-bootstrap";
+import AboutUsVol from "../../Assets/aboutUsImg.png";
+import Button from "../Button/Button";
+import { BsPlayCircle } from "react-icons/bs";
 
-function AboutHome() {
+
+const AboutHome = () => {
   return (
-    <Container>
-      <div className="aboutText">
-        <h2> Partners </h2>
-      </div>
+    <div>
+      <Container>
+        <Row className=" d-flex justify-content-center abt">
+          <Col className="col-md-6 p-5">
+            <img src={AboutUsVol} alt="AboutUsVol" className="img-fluid " />
+          </Col>
+          <Col className="col-md-6">
+            <div className="aboutText mt-5 mb-3">
+              <h2 style={{color: '#028C32'}}> About us </h2>
+              <p style={{color:'rgba(0, 0, 0, 0.5)', textAlign:'justify'}}>
+                tincidunt urna non, lobortis tincidunt. Faucibus felis nulla
+                faucibus tellus nunc. Platea risus nibh feugiat dui phasellus
+                phasellus viverra ac leo. Pellentesque venenatis, ut risus at.
+                dolor sit amet, consectetur adipiscing elit. Vitae, non,
+                lobortis tincidunt. Faucibus felis nulla faucibus tellus nunc.
+                Platea risus nibh feugiat dui phasellus phasellus viverra ac
+                leo. Pellentesque venenatis, ut risus at. dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
 
-      <Carousel className="d-flex justify-content-center px-5">
-        <Carousel.Item>
-          <img src={cocacola} alt="First slide" />
-          <img src={Jaiz} alt="First slide" />
-          <img src={accessbank} alt="First slide" />
-          <img src={tobacco} alt="First slide" />
-          <img src={nestle} alt="First slide" />
-          <img src={NaijaBrewery} alt="First slide" />
-          <img src={UBA} alt="Third slide" />
-          <img src={OGSWX} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={cocacola} alt="First slide" />
-          <img src={Jaiz} alt="First slide" />
-          <img src={accessbank} alt="First slide" />
-          <img src={tobacco} alt="First slide" />
-          <img src={nestle} alt="First slide" />
-          <img src={NaijaBrewery} alt="First slide" />
-          <img src={UBA} alt="Third slide" />
-          <img src={OGSWX} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={cocacola} alt="First slide" />
-          <img src={Jaiz} alt="First slide" />
-          <img src={accessbank} alt="First slide" />
-          <img src={tobacco} alt="First slide" />
-          <img src={nestle} alt="First slide" />
-          <img src={NaijaBrewery} alt="First slide" />
-          <img src={UBA} alt="Third slide" />
-          <img src={OGSWX} alt="Second slide" />
-        </Carousel.Item>
-      </Carousel>
-    </Container>
+              <Button desc="Read More"  style={{
+                    backgroundColor: " #028C32",
+                    boxShadow: "0px 2px 7px rgba(0, 0, 0, 0.23)",
+                    borderRadius: "6px",
+                    color: "#ffffff",
+                    border: "none",
+                    height: "2.5rem",
+                    padding: "3px 20px",
+                    marginRight:'1rem'
+            
+                  }} icon={
+                  <BsPlayCircle size="1.6rem" style={{ paddingRight: "5px" }} 
+                 
+                  />
+                } />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
-}
+};
 
 export default AboutHome;
