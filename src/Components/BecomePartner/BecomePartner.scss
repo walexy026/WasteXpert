@@ -6,12 +6,14 @@
   .beText {
     background: #fffefe;
     border-radius: 8px;
-    height: 330px;
+    max-height: 430px;
     padding: 15px;
-    line-height: 50px;
+    max-width: 440px;
+    // line-height: 50px;
   }
   .Greendot{
-    padding-left: 2rem;
+    padding: 1rem;
+    color: #000000;
   }
   .Greendot::before {
     content: "";
@@ -20,5 +22,6 @@
     border-radius: 50%;
     position: absolute;
     background-color: #028c32;
+    transform: translate(-20px, 8px);
   }
 }

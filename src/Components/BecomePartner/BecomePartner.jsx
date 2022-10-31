@@ -15,15 +15,28 @@ const BecomePartner = () => {
             
               <p className="Greendot">  Sign up, Get screened, Provide the Needed Space </p> 
 
-              <p> All neccessary set up kit provided </p> 
+              <p className="Greendot"> All neccessary set up kit provided </p> 
                 
-              <p> And start earning from every kilograms you provided space for </p>
+              <p className="Greendot"> And start earning from every kilograms you provided space for </p>
             
             
               <Button desc='Become an Agent'/>
             </div>
           </Col>
-          <Col></Col>
+          <Col>
+          <div className="beText">
+              <p>Becoming our agent with just a few simple steps </p>
+            
+              <p className="Greendot">  Sign up, Get screened, Provide the Needed Space </p> 
+
+              <p className="Greendot"> All neccessary set up kit provided </p> 
+                
+              <p className="Greendot"> And start earning from every kilograms you provided space for </p>
+                    
+              <Button desc='Become a collector'/>
+              </div>
+
+          </Col>
         </Row>
       </Container>
     </div>
