@@ -1,21 +1,36 @@
 .BecomePartner {
   background-color: #028c32;
+  padding: 1rem;
 }
 .BecomePartner .bPH2 {
   color: #ffffff;
-  padding: 3rem;
+  padding: 1rem;
 }
 .BecomePartner .beText {
-  margin-top: 3rem;
+  margin-top: 2rem;
   background: #fffefe;
   border-radius: 8px;
   max-height: 430px;
   padding: 15px;
-  max-width: 540px;
-  margin-left: 2rem;
+  max-width: 500px;
+  margin-left: 1rem;
+}
+.BecomePartner .beText2 {
+  margin-top: 2rem;
+  background: #fffefe;
+  border-radius: 8px;
+  max-height: 430px;
+  padding: 15px;
+  max-width: 500px;
+  margin-left: 1rem;
+}
+.BecomePartner .BpP1 {
+  color: #028C32;
+  font-weight: 700;
 }
 .BecomePartner .Greendot {
-  padding: 1rem;
+  font-weight: 500;
+  padding-left: 1rem;
   color: #000000;
 }
 .BecomePartner .Greendot::before {
