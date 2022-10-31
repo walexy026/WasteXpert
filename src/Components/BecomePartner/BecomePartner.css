@@ -3,13 +3,16 @@
 }
 .BecomePartner .bPH2 {
   color: #ffffff;
+  padding: 3rem;
 }
 .BecomePartner .beText {
+  margin-top: 3rem;
   background: #fffefe;
   border-radius: 8px;
   max-height: 430px;
   padding: 15px;
-  max-width: 440px;
+  max-width: 540px;
+  margin-left: 2rem;
 }
 .BecomePartner .Greendot {
   padding: 1rem;

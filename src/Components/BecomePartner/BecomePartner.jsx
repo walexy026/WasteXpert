@@ -24,7 +24,7 @@ const BecomePartner = () => {
             </div>
           </Col>
           <Col>
-          <div className="beText">
+          <div className="beText ">
               <p>Becoming our agent with just a few simple steps </p>
             
               <p className="Greendot">  Sign up, Get screened, Provide the Needed Space </p> 
