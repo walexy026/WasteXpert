@@ -14,7 +14,7 @@ function Partners() {
   return (
     <Container>
       <div className="partner mt-3 mb-3">
-        <h2> Partners </h2>
+        <h2 className="PartnersText"> Partners </h2>
       </div>
 
       <Carousel className="d-flex justify-content-center px-5 carousel">

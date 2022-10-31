@@ -2,13 +2,11 @@
   text-align: center;
   position: relative;
 }
-
-.partner h2 {
+.partner .PartnersText {
   position: relative;
   color: #028C32;
 }
-
-h2::after {
+.partner .PartnersText::after {
   content: "";
   width: 100px;
   height: 2px;
@@ -16,8 +14,7 @@ h2::after {
   background-color: #028C32;
   transform: translateY(23px);
 }
-
-.carousel {
+.partner .carousel {
   background-color: #E5E5E5;
 }
 

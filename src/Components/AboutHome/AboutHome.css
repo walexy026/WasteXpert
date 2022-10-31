@@ -1,15 +1,17 @@
 .aboutText {
   position: relative;
 }
-.aboutText h2 {
+.aboutText .aboutH2 {
   position: relative;
   color: #028C32;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 .aboutText p {
   text-align: justify;
 }
 
-h2::after {
+.aboutH2::after {
   content: "";
   width: 100px;
   height: 2px;
@@ -26,8 +28,9 @@ h2::after {
   .aboutText {
     text-align: center;
     position: relative;
+    padding: 1rem;
   }
-  .aboutText h2 {
+  .aboutText .aboutH2 {
     position: relative;
     color: #028C32;
     transform: translateX(-50px);

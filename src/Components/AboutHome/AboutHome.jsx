@@ -11,12 +11,12 @@ const AboutHome = () => {
     <div>
       <Container>
         <Row className="about">
-          <Col className="col-md-6 mt-5 p-5">
+          <Col className="col-md-6 mt-3 p-5">
             <img src={AboutUsVol} alt="AboutUsVol" className="img-fluid " />
           </Col>
-          <Col className="col-md-6 p-5">
-            <div className="aboutText mt-5  mb-3">
-              <h2 style={{color: '#028C32'}}> About us </h2>
+          <Col className="col-md-6 p-3 ">
+            <div className="aboutText  mb-3">
+              <h2 className="aboutH2" style={{color: '#028C32'}}> About us </h2>
               <p style={{color:'rgba(0, 0, 0, 0.5)', textAlign:'justify', marginBottom:'2rem'}}>
                 tincidunt urna non, lobortis tincidunt. Faucibus felis nulla
                 faucibus tellus nunc. Platea risus nibh feugiat dui phasellus

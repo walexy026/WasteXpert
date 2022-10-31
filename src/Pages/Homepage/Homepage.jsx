@@ -7,6 +7,7 @@ import man from "../../Assets/guyman2.png";
 import bg from "../../Assets/aboutUsBg.svg";
 import Partners from '../../Components/Partners/Partners'
 import AboutHome from "../../Components/AboutHome/AboutHome";
+import BecomePartner from "../../Components/BecomePartner/BecomePartner";
 
 const Homepage = () => {
   return (
@@ -70,6 +71,7 @@ const Homepage = () => {
       <div className="horizontalLine"></div>
       <Partners/>
       <AboutHome/>
+      <BecomePartner/>
     </div>
   );
 };

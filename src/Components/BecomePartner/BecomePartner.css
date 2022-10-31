@@ -1,0 +1,24 @@
+.BecomePartner {
+  background-color: #028c32;
+}
+.BecomePartner .bPH2 {
+  color: #ffffff;
+}
+.BecomePartner .beText {
+  background: #fffefe;
+  border-radius: 8px;
+  height: 330px;
+  padding: 15px;
+  line-height: 50px;
+}
+.BecomePartner .Greendot {
+  padding-left: 2rem;
+}
+.BecomePartner .Greendot::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #028c32;
+}/*# sourceMappingURL=BecomePartner.css.map */
