@@ -5,6 +5,7 @@ import "./Homepage.scss";
 import { BsPlayCircle } from "react-icons/bs";
 import man from "../../Assets/guyman2.png";
 import bg from "../../Assets/aboutUsBg.svg";
+import AboutHome from '../../Components/AboutHome/AboutHome'
 
 const Homepage = () => {
   return (
@@ -61,11 +62,12 @@ const Homepage = () => {
               <img src={man} alt="" className="img-fluid "  />
             </div>
       {/* <div className='horizontalLine'></div> */}
-      <div className='horizontalLineImg'></div>
           </Col>
+      <div className='horizontalLineImg w-100'></div>
         </Row>
       </Container>
       <div className="horizontalLine"></div>
+      <AboutHome/>
     </div>
   );
 };

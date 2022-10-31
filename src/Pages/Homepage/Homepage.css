@@ -54,8 +54,8 @@
 }
 
 .horizontalLineImg {
+  display: none;
   height: 39px;
-  width: 100%;
   background-color: #028c32;
 }
 
@@ -69,5 +69,6 @@
   }
   .horizontalLineImg {
     display: block;
+    transform: translateY(20px);
   }
 }/*# sourceMappingURL=Homepage.css.map */

@@ -71,8 +71,9 @@
   .horizontalLineImg{
     // position: absolute;
     // bottom: 0px;
+    display: none;
     height: 39px;
-    width: 100%;
+    // width: 100%;
     background-color: #028c32;
   }
   // hr{
@@ -94,5 +95,6 @@
     }
     .horizontalLineImg{
       display: block;
+      transform: translateY(20px);
     }
   }
