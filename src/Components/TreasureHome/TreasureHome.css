@@ -1,0 +1,29 @@
+.treasureHome {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: green;
+  text-align: center;
+  position: relative;
+}
+.treasureHome .treasureText {
+  padding-bottom: 2rem;
+  position: relative;
+  color: #ffffff;
+}
+.treasureHome .treasureText::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  background-color: #ffffff;
+  transform: translateY(23px);
+}
+.treasureHome .treasurecard {
+  padding-top: 5rem;
+  height: 20rem;
+  margin-left: 1.5rem;
+  background: rgba(8, 189, 70, 0.7);
+  border: 1.5px solid rgba(255, 255, 255, 0.44);
+  border-radius: 8px;
+  color: #ffffff;
+}/*# sourceMappingURL=TreasureHome.css.map */

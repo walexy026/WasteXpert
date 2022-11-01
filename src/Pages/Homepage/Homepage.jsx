@@ -9,6 +9,7 @@ import Partners from '../../Components/Partners/Partners'
 import AboutHome from "../../Components/AboutHome/AboutHome";
 import BecomePartner from "../../Components/BecomePartner/BecomePartner";
 import Testimonials from "../../Components/Testimonials/Testimonials";
+import TreasureHome from "../../Components/TreasureHome/TreasureHome";
 
 const Homepage = () => {
   return (
@@ -74,6 +75,7 @@ const Homepage = () => {
       <AboutHome/>
       <BecomePartner/>
       <Testimonials/>
+      <TreasureHome/>
     </div>
   );
 };
