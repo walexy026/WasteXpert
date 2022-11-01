@@ -1,7 +1,7 @@
 .treasureHome {
-    margin-top: 2rem;
-    padding: 2rem;
-  background-color: green;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #028C32;
   text-align: center;
   position: relative;
   .treasureText {
@@ -17,15 +17,32 @@
     background-color: #ffffff;
     transform: translateY(23px);
   }
-
+  .treasureCol {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .treasurecard {
     // display: none;
-    padding-top: 5rem;
-    height: 20rem;
-    margin-left: 1.5rem;
+    padding-top: 8rem;
+    height: 25rem;
+    margin-left: 0.5rem;
     background: rgba(8, 189, 70, 0.7);
     border: 1.5px solid rgba(255, 255, 255, 0.44);
     border-radius: 8px;
     color: #ffffff;
+  }
+  .tresureBtn {
+    background: #ffffff;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.23);
+    border-radius: 6px;
+    width: 100px;
+    padding: 0.5rem 1rem;
+    color: green;
+    border: none;
+    &:hover{
+        background-color: #028C32;
+        color: #ffffff;
+    }
   }
 }

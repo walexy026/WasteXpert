@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Row, Card } from "react-bootstrap";
+import { Container, Row,Col, Card } from "react-bootstrap";
 import "./TreasureHome.scss";
 import Treasurecan from '../../Assets/treasureCan.svg'
 import TreasurePaper from '../../Assets/treasurePaper.svg'
 import TreasurePlastic from '../../Assets/treasureplastic.svg'
 import Treasurebottle from '../../Assets/trasurebottle.svg'
+import Button from "../Button/Button";
 
 const TreasureHome = () => {
   return (
@@ -13,7 +14,8 @@ const TreasureHome = () => {
     
       <Container>
         <Row >
-          <Card gx={4} className="treasurecard" style={{ width: "15rem" }}>
+            <Col className=" m-3 treasureCol">
+          <Card className="treasurecard" style={{ width: "15rem" }}>
             <Card.Img  src={Treasurecan} />
             <Card.Body>
               <Card.Text>Aluminium Can Containers</Card.Text>
@@ -38,8 +40,10 @@ const TreasureHome = () => {
               <Card.Text >Pet botles</Card.Text>
             </Card.Body>
           </Card>
+          </Col>
         </Row>
       </Container>
+      <Button desc='See More' className='tresureBtn'/>
     </div>
   );
 };

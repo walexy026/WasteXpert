@@ -10,6 +10,7 @@ import AboutHome from "../../Components/AboutHome/AboutHome";
 import BecomePartner from "../../Components/BecomePartner/BecomePartner";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import TreasureHome from "../../Components/TreasureHome/TreasureHome";
+import FAQ from "../../Components/FAQ/FAQ";
 
 const Homepage = () => {
   return (
@@ -76,6 +77,7 @@ const Homepage = () => {
       <BecomePartner/>
       <Testimonials/>
       <TreasureHome/>
+      <FAQ/>
     </div>
   );
 };
