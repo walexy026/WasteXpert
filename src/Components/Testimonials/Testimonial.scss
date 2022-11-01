@@ -8,6 +8,8 @@
   .testText {
     position: relative;
     color: #028c32;
+    margin-top: 2rem;
+    transform: translateX(-45px);
   }
   .testText::after {
     content: "";
@@ -25,10 +27,27 @@
     );
     filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.07));
     border-radius: 9px;
-    max-height: 200px;
+    min-height: 200px;
     margin: 1rem;
     padding: 1rem;
     text-align: justify;
-    max-width:800px ;
+    max-width: 800px;
+
+    b {
+      color: #049637;
+      font-weight: 700;
+      font-size: 24px;
+      text-align: justify;
+      letter-spacing: -0.01em;
+    }
+    p {
+      font-style: italic;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: justify;
+      letter-spacing: -0.01em;
+      text-transform: capitalize;
+      color: #acacac;
+    }
   }
 }

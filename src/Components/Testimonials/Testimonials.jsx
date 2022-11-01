@@ -21,10 +21,10 @@ const Testimonials = () => {
                 tellus nunc. Platea risus nibh feugiat dui phasellus”{" "}
               </p>
             </div>
-            <img src={testimonyguy1} alt="testimonyguy1"className="img-fluid d-none"  />
+            <img src={testimonyguy1} alt="testimonyguy1"className="img-fluid d-none d-md-block"  />
           </Col>
           <Col md={12} className="d-flex justify-comtent-center align-items-center">
-            <img src={testimonyguy2} alt="testimonyguy2" />
+            <img src={testimonyguy2} alt="testimonyguy2" className="img-fluid d-none d-md-block" />
             <div className="testimony1">
               <b>Kunle Johnson( restaurant Owner) </b>
               <p>
