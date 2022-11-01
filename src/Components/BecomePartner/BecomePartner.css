@@ -10,18 +10,18 @@
   margin-top: 2rem;
   background: #fffefe;
   border-radius: 8px;
-  max-height: 430px;
+  min-height: 320px;
   padding: 15px;
-  max-width: 500px;
+  min-width: 420px;
   margin-left: 1rem;
 }
 .BecomePartner .beText2 {
   margin-top: 2rem;
   background: #fffefe;
   border-radius: 8px;
-  max-height: 430px;
+  min-height: 320px;
   padding: 15px;
-  max-width: 500px;
+  min-width: 420px;
   margin-left: 1rem;
 }
 .BecomePartner .BpP1 {
@@ -41,4 +41,15 @@
   position: absolute;
   background-color: #028c32;
   transform: translate(-20px, 8px);
+}
+
+@media only screen and (max-width: 768px) {
+  .beText {
+    min-width: 260px !important;
+    margin-left: 0rem !important;
+  }
+  .beText2 {
+    min-width: 260px !important;
+    margin-left: 0rem !important;
+  }
 }/*# sourceMappingURL=BecomePartner.css.map */
