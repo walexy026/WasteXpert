@@ -8,6 +8,7 @@ import bg from "../../Assets/aboutUsBg.svg";
 import Partners from '../../Components/Partners/Partners'
 import AboutHome from "../../Components/AboutHome/AboutHome";
 import BecomePartner from "../../Components/BecomePartner/BecomePartner";
+import Testimonials from "../../Components/Testimonials/Testimonials";
 
 const Homepage = () => {
   return (
@@ -72,6 +73,7 @@ const Homepage = () => {
       <Partners/>
       <AboutHome/>
       <BecomePartner/>
+      <Testimonials/>
     </div>
   );
 };
