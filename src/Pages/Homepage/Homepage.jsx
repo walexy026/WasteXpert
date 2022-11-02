@@ -11,6 +11,7 @@ import BecomePartner from "../../Components/BecomePartner/BecomePartner";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import TreasureHome from "../../Components/TreasureHome/TreasureHome";
 import FAQ from "../../Components/FAQ/FAQ";
+import Footer from "../../Components/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -78,6 +79,7 @@ const Homepage = () => {
       <Testimonials/>
       <TreasureHome/>
       <FAQ/>
+      <Footer/>
     </div>
   );
 };
