@@ -14,7 +14,7 @@ const TreasureHome = () => {
     
       <Container>
         <Row >
-            <Col className=" m-1 treasureCol">
+            <Col className=" treasureCol">
           <Card className="treasurecard" style={{ width: "15rem" }}>
             <Card.Img  src={Treasurecan} />
             <Card.Body>

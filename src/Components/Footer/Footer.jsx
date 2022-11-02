@@ -68,11 +68,11 @@ const Footer = () => {
         <b style={{color:'#ffffff'}}>Copyright © 2020, Created by Wastexpert Team</b>
     </Col>
     <Col md={2} className='icons'>
-        <BsFacebook style={{color:'#ffffff'}}/>
-        <AiFillTwitterCircle style={{color:'#ffffff'}}/>
-        <BsInstagram style={{color:'#ffffff'}}/>
-        <BsLinkedin style={{color:'#ffffff'}}/>
-        <SiGmail style={{color:'#ffffff'}}/>
+        <BsFacebook style={{color:'#ffffff', fontSize:'2rem'}}/>
+        <AiFillTwitterCircle style={{color:'#ffffff', fontSize:'2rem'}}/>
+        <BsInstagram style={{color:'#ffffff', fontSize:'2rem'}}/>
+        <BsLinkedin style={{color:'#ffffff', fontSize:'2rem'}}/>
+        <SiGmail style={{color:'#ffffff', fontSize:'2rem'}}/>
     </Col>
 </Row>
         </Container>

@@ -35,7 +35,7 @@ const Homepage = () => {
                   color: "#ffffff",
                   border: "none",
                   height: "2.5rem",
-                  padding: "3px 20px",
+                  padding: "0.5rem 2rem",
                   marginRight:'1rem'
           
                 }}
@@ -52,7 +52,7 @@ const Homepage = () => {
                   borderRadius: "6px",
                   color: "#ffffff",
                   height: "2.5rem",
-                  padding: "3px 20px",
+                  padding: "0.5rem 2rem",
                   marginLeft:'1rem'
                 }}
                 className="btnn"

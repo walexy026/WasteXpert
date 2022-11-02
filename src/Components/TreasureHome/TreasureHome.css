@@ -22,10 +22,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .treasureHome .treasurecard {
   padding-top: 8rem;
   height: 25rem;
+  margin-bottom: 1rem;
   margin-left: 0.5rem;
   background: rgba(8, 189, 70, 0.7);
   border: 1.5px solid rgba(255, 255, 255, 0.44);
