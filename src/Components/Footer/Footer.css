@@ -2,10 +2,46 @@
   background-color: #028C32;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+.footer .footerP {
+  padding-right: 5rem;
+}
+.footer .footerLink {
+  list-style: none;
+}
+.footer .footerLink li {
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .footerLink li:nth-child(1) {
+  font-size: 22px;
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+.footer .footerLink a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .footer .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+  .footer li {
+    display: none;
+  }
+  .footer li:nth-child(1) {
+    display: block;
+  }
+  .footer .footerP {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }/*# sourceMappingURL=Footer.css.map */

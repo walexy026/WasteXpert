@@ -13,7 +13,7 @@ const Footer = () => {
 <Row>
     <Col md={8} >
     <img src={WasteXpertLogo} alt="WasteXpertLogo" />
-    <p style={{color:'#ffffff'}}>Wastexpert</p>
+    <p style={{color:'#ffffff', paddingLeft:'1rem',fontWeight: '700'}}>Wastexpert</p>
     </Col>
     <Col md={4}>
    <p style={{color:'#ffffff'}}> Subscribe to our Newsletter</p>
@@ -32,10 +32,10 @@ const Footer = () => {
 </Row>
 <Row>
     <Col md={5}>
-    <p style={{color:'#ffffff', textAlign:'justify', paddingRight:'5rem'}}>Wastexpert is a waste recycling and social benefit venture borne out of sheer passion and vision to transform our environment into a zero landfill  and zero waste nation. We operates an incentive-based scheme which collects recyclable materials from post consumers and in turn rewards them with “Points” which they can accumulate overtime and cash out or use to redeem/shop for household items offered through our Wastexpert store.</p>
+    <p className='footerP' style={{color:'#ffffff', textAlign:'justify'}}>Wastexpert is a waste recycling and social benefit venture borne out of sheer passion and vision to transform our environment into a zero landfill  and zero waste nation. We operates an incentive-based scheme which collects recyclable materials from post consumers and in turn rewards them with “Points” which they can accumulate overtime and cash out or use to redeem/shop for household items offered through our Wastexpert store.</p>
     </Col>
     <Col md={3}>
-    <ul>
+    <ul className='footerLink'>
         <li> <a href=""> About</a></li>
         <li> <a href="">Our Mission</a></li>
         <li> <a href="">Vision</a></li>
@@ -44,7 +44,7 @@ const Footer = () => {
     </ul>
     </Col>
     <Col md={2}>
-    <ul>
+    <ul className='footerLink'>
         <li> <a href=""> Contact Us</a></li>
         <li> <a href="">Our Mission</a></li>
         <li> <a href="">Vision</a></li>
@@ -53,7 +53,7 @@ const Footer = () => {
     </ul>
     </Col>
     <Col md={2}>
-    <ul>
+    <ul className='footerLink'>
         <li> <a href=""> Service</a></li>
         <li> <a href="">Waste to wealth pick up</a></li>
         <li> <a href="">Flip-it</a></li>
