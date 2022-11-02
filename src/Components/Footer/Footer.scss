@@ -1,3 +1,12 @@
 .footer{
     background-color: #028C32;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
 }

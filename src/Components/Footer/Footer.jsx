@@ -8,7 +8,7 @@ import WasteXpertLogo from '../../Assets/footerLogo.svg'
 
 const Footer = () => {
   return (
-    <div className='footer'>Footer
+    <div className='footer'>
         <Container>
 <Row>
     <Col md={8} >
@@ -32,7 +32,7 @@ const Footer = () => {
 </Row>
 <Row>
     <Col md={5}>
-    <p>Wastexpert is a waste recycling and social benefit venture borne out of sheer passion and vision to transform our environment into a zero landfill  and zero waste nation. We operates an incentive-based scheme which collects recyclable materials from post consumers and in turn rewards them with “Points” which they can accumulate overtime and cash out or use to redeem/shop for household items offered through our Wastexpert store.</p>
+    <p style={{color:'#ffffff', textAlign:'justify', paddingRight:'5rem'}}>Wastexpert is a waste recycling and social benefit venture borne out of sheer passion and vision to transform our environment into a zero landfill  and zero waste nation. We operates an incentive-based scheme which collects recyclable materials from post consumers and in turn rewards them with “Points” which they can accumulate overtime and cash out or use to redeem/shop for household items offered through our Wastexpert store.</p>
     </Col>
     <Col md={3}>
     <ul>
@@ -62,17 +62,17 @@ const Footer = () => {
     </ul>
     </Col>
 </Row>
-<hr />
+<hr style={{color:'#ffffff'}}/>
 <Row>
-    <Col md={8}>
-        <b>Copyright © 2020, Created by Wastexpert Team</b>
+    <Col md={10}>
+        <b style={{color:'#ffffff'}}>Copyright © 2020, Created by Wastexpert Team</b>
     </Col>
-    <Col md={4}>
-        <BsFacebook/>
-        <AiFillTwitterCircle/>
-        <BsInstagram/>
-        <BsLinkedin/>
-        <SiGmail/>
+    <Col md={2} className='icons'>
+        <BsFacebook style={{color:'#ffffff'}}/>
+        <AiFillTwitterCircle style={{color:'#ffffff'}}/>
+        <BsInstagram style={{color:'#ffffff'}}/>
+        <BsLinkedin style={{color:'#ffffff'}}/>
+        <SiGmail style={{color:'#ffffff'}}/>
     </Col>
 </Row>
         </Container>
