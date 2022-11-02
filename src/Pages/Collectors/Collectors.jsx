@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Button from "../../Components/Button/Button";
 import "./Collectors.scss";
 import collectorWithClasss from "../../Assets/CollectorWclass.png";
+import RollWithUs from "../../Components/RollWithUs/RollWithUs";
 
 const Collectors = () => {
   return (
@@ -24,6 +25,7 @@ const Collectors = () => {
         </Row>
       </Container>
       <div className="horizontalLine"></div>
+      <RollWithUs/>
     </div>
   );
 };
