@@ -5,9 +5,9 @@ import truck from "../../Assets/truck.svg";
 import settings from "../../Assets/settings.svg";
 import saveMoney from "../../Assets/save-money.svg";
 
-const RollWithUs = () => {
+const RollWithUs = ({style}) => {
   return (
-    <div className="rollwithus">
+    <div style={style} className="rollwithus"  >
 
       <Container>
         <h2 style={{ textAlign: "center", color: "#000000", paddingTop:'2rem' }}>

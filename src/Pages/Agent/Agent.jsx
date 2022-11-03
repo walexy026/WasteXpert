@@ -10,7 +10,7 @@ const Agent = () => {
   return (
     <div>
       <div className='agentt' >
-        <Container className="mt-3  w-100" >
+        <Container className="mt-5  w-100" >
         <Row className="Agent">
           <Col md={5}>
             <h1>Love to Chill with the ‘BIG’ boys?</h1>
@@ -26,7 +26,7 @@ const Agent = () => {
         </Row>
       </Container>
       </div>
-      <RollWithUs/>
+      <RollWithUs style={{background: 'white'}}/>
       <div className="horizontalLine"></div>
       <FAQ/>
       <Footer/>
