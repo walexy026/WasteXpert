@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Stack } from 'react-bootstrap'
+import { Col, Container, Row, Stack, Card } from 'react-bootstrap'
 import { BsPlayCircle } from "react-icons/bs";
 import Button from '../../Components/Button/Button'
 import './PickUp.scss'
@@ -7,6 +7,8 @@ import dropOff from '../../Assets/dropOff.svg'
 import pickUp from '../../Assets/pickUp.svg'
 import baskettrash from '../../Assets/waste.svg'
 import fliptruck from '../../Assets/busWithShadow.svg'
+import reece from '../../Assets/reece.svg'
+import flipIt from '../../Assets/flipIt.svg'
 
 const PickUp = () => {
   return (
@@ -52,6 +54,37 @@ const PickUp = () => {
 
         </Col>
     </Row>
+<Row>
+    <Col className='pickCol'>
+    <Card style={{ width: "20rem", background: '#FFFFFF', borderRadius:'8px', padding: '0.7rem'}}>
+            <Card.Img  src={reece} style={{ width: "3rem" }} />
+            <Card.Body>
+            <Card.Header>Corporate Recycling</Card.Header>
+              <Card.Text>Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna. Vulputate. sit amet, consectetur adipiscing elit. Mollis leo auctor a scelerisque vel sit cras eu consectetur. Viverra venenatis, mauris diam dolor cras a. Lectus massa aenean neque pulvinar tortor, a. Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna. Vulputate. consectetur adipiscing elit. Mollis leo auctor a</Card.Text>
+             <Button desc='Get Started' className='btnFlip'/>
+            </Card.Body>
+          </Card>
+    <Card  style={{ width: "20rem", background: '#FFFFFF', borderRadius:'8px', padding: '0.7rem' }}>
+            <Card.Img  src={flipIt} style={{ width: "3rem" }} />
+            <Card.Body>
+                <Card.Header>Flip it</Card.Header>
+              <Card.Text style={{textAlign: 'justify', color: '#028C32'}}> Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna. Vulputate. sit amet, consectetur adipiscing elit. Mollis leo auctor a scelerisque vel sit cras eu consectetur. Viverra venenatis, mauris diam dolor cras a. Lectus massa aenean neque pulvinar tortor, a. Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna. Vulputate. consectetur adipiscing elit. Mollis leo auctor a</Card.Text>
+              <Button desc='Get Started' className='btnFlip'/>
+             
+            </Card.Body>
+          </Card>
+    <Card style={{ width: "20rem", background: '#FFFFFF', borderRadius:'8px',padding: '0.7rem' }}>
+            <Card.Img  src={reece} className='img-fluid' style={{ width: "3rem" }} />
+            <Card.Body>
+            <Card.Header>Recce</Card.Header>
+              <Card.Text>Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna. Vulputate. sit amet, consectetur adipiscing elit. Mollis leo auctor a scelerisque vel sit cras eu consectetur. Viverra venenatis, mauris diam dolor cras a. Lectus massa aenean neque pulvinar tortor, a. Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna. Vulputate. consectetur adipiscing elit. Mollis leo auctor a</Card.Text>
+              <Button desc='Get Started' className='btnFlip'/>
+             
+            </Card.Body>
+          </Card>
+    </Col>
+</Row>
+
 </Container>
 
     </div>
