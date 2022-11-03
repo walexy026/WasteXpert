@@ -4,6 +4,8 @@ import Button from "../../Components/Button/Button";
 import "./Collectors.scss";
 import collectorWithClasss from "../../Assets/CollectorWclass.png";
 import RollWithUs from "../../Components/RollWithUs/RollWithUs";
+import FAQ from "../../Components/FAQ/FAQ";
+import Footer from "../../Components/Footer/Footer";
 
 const Collectors = () => {
   return (
@@ -26,6 +28,8 @@ const Collectors = () => {
       </Container>
       <div className="horizontalLine"></div>
       <RollWithUs/>
+      <FAQ/>
+      <Footer/>
     </div>
   );
 };
