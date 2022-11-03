@@ -1,3 +1,18 @@
-.rollwithus{
-    background: rgba(196, 196, 196, 0.2);
+.rollwithus {
+  background: rgba(196, 196, 196, 0.2);
+
+  .rollItems {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .rollP{
+        width: 250px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 110.02%;
+        text-align: center;
+        color: #000000;
+    }
+  }
 }
