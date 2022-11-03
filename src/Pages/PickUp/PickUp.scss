@@ -1,0 +1,28 @@
+.pickupP {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  text-align: justify;
+  color: #666666;
+  
+//   padding: 1rem;
+}
+.btnPickUp1 {
+  background-color: #028c32;
+  color: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.23);
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem 1.2rem;
+//   margin-left: 1rem;
+}
+.btnPickUp2 {
+    @extend .btnPickUp1;
+  background: #000000;
+  margin-left: 1rem;
+
+ &:hover{
+    background-color:red;
+ }
+}
