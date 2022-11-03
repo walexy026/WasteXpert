@@ -11,7 +11,7 @@ const FAQ = () => {
       <Container>
         <Accordion defaultActiveKey="0" className="accHeader">
           <Accordion.Item eventKey="0" className="accHeader">
-            <Accordion.Header className="accHeader">
+            <Accordion.Header className="accHeader" style={{color:'#028c32'}}>
               How much does it cost to be a wastexert agent?
             </Accordion.Header>
             <Accordion.Body className="accBody">

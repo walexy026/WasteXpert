@@ -10,7 +10,6 @@ import Footer from "../../Components/Footer/Footer";
 const Collectors = () => {
   return (
     <div>
-      Collectors
       <Container className="mt-3  w-100">
         <Row className="collectors">
           <Col md={5}>
