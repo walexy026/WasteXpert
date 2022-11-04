@@ -33,6 +33,7 @@
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     text-align: center;
     padding-top: 2rem;
 }
@@ -60,4 +61,14 @@
         background-color: #f1efef;
     }
   }
+}
+
+
+@media only screen and (max-width:768px){
+    .pickRow{
+        flex-direction: column-reverse;
+    }
+    .pickRow2{
+        flex-direction: column;
+    }
 }

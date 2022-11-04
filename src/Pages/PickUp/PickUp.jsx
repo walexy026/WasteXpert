@@ -10,15 +10,15 @@ import fliptruck from "../../Assets/busWithShadow.svg";
 import reece from "../../Assets/reece.svg";
 import flipIt from "../../Assets/flipIt.svg";
 import services from "../../Assets/services.svg";
+import Footer from "../../Components/Footer/Footer";
 
 
 const PickUp = () => {
   return (
     <div>
-      PickUp
       <Container className="mt-5  w-100">
-        <Row className="mt-5">
-          <Col className="p-2">
+        <Row className="mt-5 pickRow">
+          <Col className="p-2 col-md-6">
             {/* <h2>Pick up </h2> */}
             <img src={pickUp} alt="pickUp" />
 
@@ -48,15 +48,15 @@ const PickUp = () => {
               />
             </Stack>
           </Col>
-          <Col>
+          <Col className="col-md-6 mt-5">
             <img src={fliptruck} alt="fliptruck" className="img-fluid" />
           </Col>
         </Row>
-        <Row className="mt-5">
-          <Col>
+        <Row className="mt-5 pickRow2">
+          <Col className="md-6">
             <img src={baskettrash} alt="baskettrash" className="img-fluid" />
           </Col>
-          <Col className="p-3">
+          <Col className="p-3 md-6">
             {/* <h2>Drop Off </h2> */}
             <img src={dropOff} alt="dropOff" />
 
@@ -90,7 +90,7 @@ const PickUp = () => {
         </Row>
       </Container>
       <div className="pickWrapper">
-        <img src={services} alt="services" />
+        <img src={services} alt="services" className='img-fluid' />
         <Container>
           <Row>
             <Col className="pickCol">
@@ -197,6 +197,7 @@ const PickUp = () => {
           </Row>
         </Container>
       </div>
+      <Footer/>
     </div>
   );
 };
