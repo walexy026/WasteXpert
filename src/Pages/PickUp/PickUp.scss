@@ -7,6 +7,7 @@
   color: #666666;
 
   //   padding: 1rem;
+
 }
 .btnPickUp1 {
   background-color: #028c32;
@@ -26,9 +27,19 @@
     background-color: red;
   }
 }
+
+.pickWrapper{
+    background-image: url(../../Assets/bgflipit.svg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 2rem;
+}
 .pickCol {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 2rem;
@@ -43,5 +54,10 @@
     color: #ffffff;
     border:none;
     padding: 0.5rem 1rem;
+    
+    &:hover{
+        color: #028c32;
+        background-color: #f1efef;
+    }
   }
 }
